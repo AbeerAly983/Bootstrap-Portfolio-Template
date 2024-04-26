@@ -1,0 +1,26 @@
+@import url(main.css);
+header {
+  height: 60vh;
+  color: #fff;
+  background-image: linear-gradient(
+      to right,
+      rgba(13, 109, 253, 0.6),
+      rgba(13, 109, 253, 0.6)
+    ),
+    url(../imgs/portfolio/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#details {
+  .carousel-indicators {
+    bottom: -55px;
+  }
+  .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #0062d3;
+  }
+}
